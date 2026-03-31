@@ -13,9 +13,6 @@ const nums = [13, 87, 2, 89, 12, 4, 90, 63];
 
 // Your code here:
 
-const numbers = nums.map((number)=> {
- return `${number}`;
-});
 
 const numsTimesTwo = nums.map((number)=> {
  return number *2;
@@ -100,8 +97,8 @@ const anotherCar = {
 
 const myCar = {...anotherCar};
 
-myCar.make = "Cadillac",
-myCar.model = "Lyriq",
+myCar.make = "Cadillac";
+myCar.model = "Lyriq";
 
 console.log('anotherCar: ', anotherCar);
 
