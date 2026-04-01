@@ -141,7 +141,7 @@ function sentence(noun = "cat", adjective = "orange") {
  console.log(`The ${noun} is ${adjective}`);
 }
 
-sentence();
+sentence("dog", "happy");
 
 // ! Exercise 9:
 // a. Convert the following `if...else` statement into a ternary:
@@ -158,7 +158,7 @@ const pizza = 'tasty';
 
 // Your code here:
 
-pizza === "tasty" ? console.log('Yum') : console.log('No');
+pizza === "tasty" ? console.log('Yum') : console.log('Yuck');
 
 // ! Exercise 10:
 // ! 10.1: Set language
